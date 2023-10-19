@@ -1,0 +1,134 @@
+
+p{
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  -webkit-font-smoothing: antialiased;
+}
+
+h3, h4{
+
+  font-weight: 300;
+  line-height: 110%;
+}
+
+h1.header{
+  font-size: 3.5rem;
+  margin-top:30px ;
+}
+
+p.caption{
+  color: rgba(0,0,0,0.71);
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+
+:not(pre)>code[class*="language-"] {
+  /* padding: 0.1em 0.25em; */
+  border: solid 1px rgba(51,51,51,0.12);
+  background: rgba(246,246,246,0.3);
+}
+
+.card-panel{
+  padding: 20px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+
+/* For fixed sidenav */
+header, main, footer {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+  .nav-wrapper{
+    text-align: center;
+  }
+}
+
+nav.top-nav{
+  height: 122px;
+  box-shadow: none;
+}
+
+.container{
+  width: 90%;
+}
+
+a.sidenav-trigger{
+  position: absolute;
+  margin-top: 50px;
+  top: 0;
+  left: 100px;
+  z-index: 2;
+}
+
+.fa-bars{
+  font-size: 2rem;
+}
+
+.fa-wodu.fa-2xl {
+  font-size: 5em;
+  line-height: 2em;
+  vertical-align: -0.1875em;
+}
+
+.ads-text{
+  font-size: 13px;
+}
+
+
+.pinned{
+  position: fixed !important;
+  top: 0;
+  margin-top: 42px;
+}
+
+.unpin{
+  position: relative;
+  margin-top:42px;
+}
+
+a.carbon-link{
+  position: relative;
+  left: 30px;
+  font-size: 10px;
+}
+
+.section li a{
+  color: black;
+}
+
+.grid-example{
+  border: 1px solid white;
+  margin: 7px 0;
+}
+
+p.section-dividers{
+  margin: 0 ;
+}
+
+i.promotion-table{
+  color: #f95610;
+  font-size:5rem ;
+}
+
+table thead tr th{
+  width: 141px;
+}
+
+.sizes{
+  text-align: center;
+  border: 1px solid rgba(51,51,51,0.12);
+  border-radius: 5px;
+  width: 25px;
+  background:rgba(246,246,246,0.3) ;
+}

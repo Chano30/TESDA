@@ -1,0 +1,66 @@
+body{
+  background-color:#78909c ;
+}
+
+h1, h2, h3, h4, h5, p{
+  font-weight: 400;
+}
+
+
+
+
+
+i {
+  color:#616161;
+  font-family: oblique;
+}
+
+p, blockquote, table, td{
+  color: antiquewhite;
+  font-size: medium;
+}
+
+#toggle-button{
+  background-color: #616161;
+  border-radius: 10px;
+  box-shadow: -10px 7px 19px -6px rgba(56,50,50,0.61);
+  -webkit-box-shadow: -10px 7px 19px -6px rgba(56,50,50,0.61);
+  -moz-box-shadow: -10px 7px 19px -6px rgba(56,50,50,0.61);
+}
+
+.card-effect{
+  box-shadow: -6px 19px 7px -10px rgba(56,50,50,0.46);
+  -webkit-box-shadow: -6px 19px 7px -10px rgba(56,50,50,0.46);
+  -moz-box-shadow: -6px 19px 7px -10px rgba(56,50,50,0.46);
+}
+
+
+.fade-in {
+  transition: opacity 0.5s ease-in-out;
+}
+.fade-in.active {
+  opacity: 1;
+}
+
+mark{
+  color: antiquewhite;
+  background: rgba(246, 246, 246, 0.144);
+  padding: 0px 0.24em;
+  border:solid 1px rgba(51, 51, 51, 0.404) ;
+  border-radius: 0.3em;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.slider-container{
+  display: flex;
+  justify-content: center;
+}
+
+.slider{
+  width: 50%;
+  height: 500px;
+}

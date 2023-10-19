@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <title>Tables & Media</title>
+</head>
+<body>
+  <h1 class="center">Table</h1>
+  <div class="divider"></div>
+  <div class="container">
+    <p>
+      Tables are a nice way to organize a lot of data. We provide a few utility classes to help you style your table as easily as possible. In addition, to improve mobile experience, all tables on mobile-screen widths are centered automatically.
+    </p>
+
+    <table class="black-text">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Item Name</th>
+          <th>Item Price</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Carmine</td>
+          <td>Donnelly</td>
+          <td>$0.87</td>
+        </tr>
+        <tr>
+          <td>Carleton</td>
+          <td>O'Keefe</td>
+          <td>$0.87</td>
+        </tr>
+        <tr>
+          <td>Wade</td>
+          <td>Mertz</td>
+          <td>$0.87</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br><br><br>
+    <h3 >Striped Table</h3>
+    <p>
+      Add <mark>class="striped"</mark> to the table tag for a striped table
+    </p>
+    <table class="black-text striped grey">
+      <thead>
+        <tr >
+          <th>Name</th>
+          <th>Item Name</th>
+          <th>Item Price</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Matteo</td>
+          <td>Beer</td>
+          <td>$0.87</td>
+        </tr>
+        <tr>
+          <td>Amanda</td>
+          <td>Hermiston</td>
+          <td>$0.87</td>
+        </tr>
+        <tr>
+          <td>Maribel</td>
+          <td>Moore</td>
+          <td>$0.87</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br><br><br>
+    <h3 >Highlight Table</h3>
+    <p>
+      Add <mark>class="highlight"</mark> to the table tag for a highlight table.
+    </p>
+    <table class="black-text highlight ">
+      <thead>
+        <tr >
+          <th>Name</th>
+          <th>Item Name</th>
+          <th>Item Price</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Matteo</td>
+          <td>Beer</td>
+          <td>$0.87</td>
+        </tr>
+        <tr>
+          <td>Amanda</td>
+          <td>Hermiston</td>
+          <td>$0.87</td>
+        </tr>
+        <tr>
+          <td>Maribel</td>
+          <td>Moore</td>
+          <td>$0.87</td>
+        </tr>
+        <tr>
+          <td>Keira</td>
+          <td>Koelpin</td>
+          <td>$0.87</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br><br><br>
+    <h3 >Centered Table</h3>
+    <p>
+      Add <mark>class="centered"</mark> to the table tag to center align all the text in the table
+    </p>
+    <table class="black-text centered">
+      <thead>
+        <tr >
+          <th>Name</th>
+          <th>Item Name</th>
+          <th>Item Price</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Matteo</td>
+          <td>Beer</td>
+          <td>$0.87</td>
+        </tr>
+        <tr>
+          <td>Amanda</td>
+          <td>Hermiston</td>
+          <td>$0.87</td>
+        </tr>
+        <tr>
+          <td>Maribel</td>
+          <td>Moore</td>
+          <td>$0.87</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br><br><br>
+    <h3>Responsive Table</h3>
+    <p>
+      Add <mark>class="responsive-table"</mark> to the table tag to make the table horizontally scrollable on smaller screen widths.
+    </p>
+    <table class="black-text responsive-table">
+      <thead>
+        <tr >
+          <th>Name</th>
+          <th>Item Name</th>
+          <th>Item Price</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Matteo</td>
+          <td>Beer</td>
+          <td>$0.87</td>
+        </tr>
+        <tr>
+          <td>Amanda</td>
+          <td>Hermiston</td>
+          <td>$0.87</td>
+        </tr>
+        <tr>
+          <td>Maribel</td>
+          <td>Moore</td>
+          <td>$0.87</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+  <br><br>
+  <div class="divider"></div>
+
+  <div class="container">
+    <h1 class="center">Media CSS</h1>
+    <div class="divider"></div>
+
+    <h3>Images</h3>
+    <p>Images can be styled in different ways using Materialize</p>
+    <br>
+    <p class="flow-text black-text">Responsive Images</p>
+    <p>To make image resize responsively to page width, you can add the class <mark>responsive-img</mark> to your code. It will now have a <mark>max-width:100%</mark> and <mark>height:auto</mark></p>
+
+    <p class="flow-text black-text">Circular images</p>
+    <div class="col s12 m8 offset-m2 l6 offset-l3">
+      <div class="card-panel grey lighten-1 z-depth-2 hoverable">
+        <div class="row valign-wrapper">
+          <div class="col s2">
+            <img src="images/img1.jpeg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+          </div>
+          <div class="col s10">
+            <span class="black-text">
+              This is a square image. Add the "circle" class to it to make it appear circular.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p>To make images appear circular, simply add <mark>class="circle"</mark> to them</p>
+
+    <br><br><br>
+    <h3>Videos</h3>
+    <p>We provide a container for Embedded Videos that resizes them responsively.</p>
+
+    <p class="flow-text">Responsive Embeds
+    </p>
+
+    <p>To make your embeds responsive, merely wrap them with a containing div which has the class <mark>video-container</mark></p>
+
+    <div class="video-container hoverable z-depth-4">
+      <iframe width="516" height="290" src="https://www.youtube.com/embed/ey6hGEmgAl8" title="Table" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <br><br><br>
+  <div class="divider"></div>
+  <h1 class="center">Media</h1>
+  <div class="divider"></div>
+  <br>
+  <div class="container">
+    <p class="center">Media components include things that have to do with large media objects like Images, Video, Audio, etc.</p>
+    <br>
+    <h3 class="center">Material Box</h3>
+    <p class="center">
+      Material box is a material design implementation of the Lightbox plugin. When a user clicks on an image that can be enlarged, <br> Material box centers the image and enlarges it in a smooth, non-jarring manner. To dismiss the image, <br> the user can either click on the image again, scroll away, or press the ESC key.
+    </p>
+    <div class="image-container">
+      <img class="materialboxed" width=650 src="images/img2.png">
+    </div>
+    
+    <br><br>
+    <h3 class="center">Slider</h3>
+    <p class="center">Our slider is a simple and elegant image carousel. You can also have captions that will be transitioned on <br> their own depending on their alignment. You can also have indicators that show up on the bottom of the slider.</p>
+    
+    <div class="slider-container">
+      <div class="slider ">
+        <ul class="slides">
+          <li>
+            <img src="images/2.svg" alt="">
+          </li>
+          <li>
+            <img src="images/3.svg" alt="">
+          </li>
+          <li>
+            <img src="images/1.svg" alt="">
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+
+  </div>
+
+
+
+
+  <div style="height: 1000px;"></div>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>

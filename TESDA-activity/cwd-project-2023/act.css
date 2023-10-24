@@ -1,0 +1,30 @@
+.card-panel h6{
+  font-weight: 500;
+}
+.card-panel p{
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.card-panel span i{
+  margin-right: 5px;
+}
+
+
+.sidenav-logo{
+  margin-top:18px;
+}
+
+.arrow-drop{
+  position: absolute;
+  right: 0;
+}
+
+.collapsible li{
+  border-bottom: 1px rgba(27, 14, 14, 0.158) solid;
+}
+
+a, .footer-text{
+  font-weight: 100;
+  font-size: small;
+}
